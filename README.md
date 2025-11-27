@@ -1,5 +1,5 @@
-#**EX.NO:** 1  # EXPERIMENTAL VERIFICATION OF AMPLIFIER INVERTING, NON INVERTING , DIFFERENTIAL AMPLIFIER AND INSTRUMENTATION AMPLIFIERS
-**DATE:**  
+**EX.NO:** 1  # EXPERIMENTAL VERIFICATION OF AMPLIFIER INVERTING, NON INVERTING , DIFFERENTIAL AMPLIFIER AND INSTRUMENTATION AMPLIFIERS
+
 ---
 
 ## AIM
@@ -48,6 +48,7 @@ The negative sign in gain indicates a **phase shift of 180°**.
 Acl = -RF/R1
 
 PIN DIAGRAM
+
 <img width="624" height="269" alt="image" src="https://github.com/user-attachments/assets/635c9837-d5f5-4d6f-acc9-8a47a4368230" />
 
 CIRCUIT DIAGRAM: INVERTING AMPLIFIER:
@@ -66,7 +67,7 @@ Inverting amplifier:
 A = -Rf/R1
 Take  A = 10
 Rf =10 R1
-Choose R1 = 1kΩ, Rf=10kΩ
+Choose R1 = 10kΩ, Rf=100kΩ
 
 PROCEDURE:
 Inverting amplifier:
@@ -84,14 +85,26 @@ Inverting amplifier:
 
 | S.No | Vin (V) | Time (ms) | Vo = Vin[-(Rf / R1)] (V) | Theoretical | Practical |
 |------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |			
+| 1 |300 mv | 1| | -3|-3|
+| 2 |400 mv | 1| | -4|-4.08|
+| 3 |500 mv | 1| | -5|-5.28|		
  
 
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+
+![WhatsApp Image 2025-11-25 at 22 55 15_3bc9b1ec](https://github.com/user-attachments/assets/7ac659a5-2954-4c87-8361-b5280276e493)
+
+
+
+![inverting 2](https://github.com/user-attachments/assets/e84cb5d5-7cb9-4ee9-b7ac-63091ded1998)
+
+
+
+
+
 
 
 ---
@@ -104,7 +117,6 @@ Here, the output is fed back to the inverting terminal, and **no phase shift** o
 ACL = 1 + RF/R1
 
 
----
 
 ## CIRCUIT DIAGRAM
 
@@ -132,13 +144,17 @@ PROCEDURE:
 
 | S.No | Vin (V) | Time (ms) | Vo = Vin[1 + (Rf / R1)] (V) | Theoretical | Practical |
 |------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+| 1 |300mv |1ms | |3.3 |3.25 |
+| 2 | 400mv|1ms | | 4.4|4.1 |
+| 3 |500mv |1ms | | 5.5| 0.4|
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![non inverting 1](https://github.com/user-attachments/assets/ec024e84-8734-4efd-a104-72e977d39b9a)
+
+
+![non inverting 2](https://github.com/user-attachments/assets/fff11728-3653-4e4f-b781-6b6193b2742c)
 
 ---
 ## DIFFERENTIAL AMPLIFIER
@@ -158,7 +174,11 @@ A = Vo/{V2 - V1} = -Rf/R1
 ---
 
 ## DESIGN
-
+vo=(-Rf/R1)(v1-v2)volts
+v1=0.5
+v2=1
+Rf=100
+Ri=100
 
 ### **Differential Amplifier**
 
@@ -188,12 +208,14 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 
 | S.No | V1 (V) | V2 (V) | Vo = (-Rf/R1)(V1 - V2) (V) | Theoretical | Practical |
 |------|---------|---------|-----------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+| 1 |0.5 | 1| |0.5 |0.48 |
+| 2 | 0.5| 1.5| | 1.0| 0.10|
+| 3 | 0.5| 2| |1.5 |0.10 |
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+![differntial](https://github.com/user-attachments/assets/84248391-3aa7-4418-8743-a52c73cdfa7d)
 
 
 ---
@@ -227,13 +249,14 @@ PROCEDURE:
 
 | S.No | V1 (V) | V2 (V) | Vo = (Rf / R1) [1 + (2R’ / R)] (V2 – V1) (V) | Theoretical | Practical |
 |------|---------|---------|----------------------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+| 1 |1.5 | 2.0| |-2.7 |-2.80 |
+| 2 |2.0 | 3.0| |5.4 | 8.58|
+| 3 | 2.5| 3.5| |8.4 |5.52 |
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![instrumental](https://github.com/user-attachments/assets/fc4a7070-2bd0-44ae-bb6f-c0d23a644e29)
 
 ---
 ## RESULT
