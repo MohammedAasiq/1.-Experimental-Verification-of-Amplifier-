@@ -95,7 +95,8 @@ Inverting amplifier:
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
 
-![inverting 1](https://github.com/user-attachments/assets/4b78cae7-7d13-4ea1-885f-a0c0148df44e)
+![WhatsApp Image 2025-11-27 at 22 43 24_4c53b0cc](https://github.com/user-attachments/assets/628f194c-33d3-4879-b616-9f8357dd2dd7)
+
 
 
 ![inverting 2](https://github.com/user-attachments/assets/e84cb5d5-7cb9-4ee9-b7ac-63091ded1998)
