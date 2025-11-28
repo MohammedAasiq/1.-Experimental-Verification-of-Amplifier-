@@ -95,11 +95,11 @@ Inverting amplifier:
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
 
-![WhatsApp Image 2025-11-27 at 22 43 24_4c53b0cc](https://github.com/user-attachments/assets/628f194c-33d3-4879-b616-9f8357dd2dd7)
+![graph 1 ](https://github.com/user-attachments/assets/3e480095-619d-43c9-9d4d-333ef0d5e7fd)
 
 
 
-![inverting 2](https://github.com/user-attachments/assets/e84cb5d5-7cb9-4ee9-b7ac-63091ded1998)
+![graph 2](https://github.com/user-attachments/assets/e41cd3d8-b29b-4e1b-a3bb-6b418a908114)
 
 
 
@@ -151,10 +151,12 @@ PROCEDURE:
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
-![non inverting 1](https://github.com/user-attachments/assets/ec024e84-8734-4efd-a104-72e977d39b9a)
+
+![non inverting graph 3](https://github.com/user-attachments/assets/7b050e95-8c41-4486-9165-c5e4038fa0be)
 
 
-![non inverting 2](https://github.com/user-attachments/assets/fff11728-3653-4e4f-b781-6b6193b2742c)
+![non inverting graph 4](https://github.com/user-attachments/assets/50e47c74-b0f6-4f52-9922-32249d7bc945)
+
 
 ---
 ## DIFFERENTIAL AMPLIFIER
@@ -215,7 +217,8 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
-![differntial](https://github.com/user-attachments/assets/84248391-3aa7-4418-8743-a52c73cdfa7d)
+![differntial graph 5](https://github.com/user-attachments/assets/9db70046-c173-44ab-988c-8aa42264cfe0)
+
 
 
 ---
@@ -256,7 +259,8 @@ PROCEDURE:
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
-![instrumental](https://github.com/user-attachments/assets/fc4a7070-2bd0-44ae-bb6f-c0d23a644e29)
+![instrumentation amplifier 6](https://github.com/user-attachments/assets/f2216734-ec6c-4081-8dec-51e8c8632f2e)
+
 
 ---
 ## RESULT
